@@ -9,7 +9,6 @@ import javax.inject.Named;
 @SessionScoped
 public class MenuBean implements Serializable{
 
-	
 	private static final long serialVersionUID = 1L;
 	private Integer index=0;
 	
