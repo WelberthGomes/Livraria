@@ -30,6 +30,15 @@ public class Banco {
 		livros.add(livro);
 	}
 	
+	public void erros() throws Error{
+		try {
+			new Error();
+		} catch (Error e) {
+			System.out.println(e);
+		} 
+	}
+	
+	
 	public List<Livro> listaLivros() {
 		return livros;
 	}
