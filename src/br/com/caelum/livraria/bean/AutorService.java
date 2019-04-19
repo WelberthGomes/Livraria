@@ -14,8 +14,10 @@ public class AutorService {
 	@Inject
 	AutorDao autorDao;
 	
-	public void adiciona(Autor autor) {
+	public void adiciona(Autor autor) throws LivrariaExcption {
 		autorDao.salva(autor);
+		
+		//throw new LivrariaExcption();
 	}
 	
 
